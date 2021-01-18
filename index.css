@@ -1,0 +1,662 @@
+  
+  
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    background-color: grey;  
+  font-family: sans-serif;
+}
+ .container {
+   position:fixed;
+   z-index: 3;
+    display: flex;
+    border:2px solid black;
+    align-items: center;
+    width:100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color:grey;
+  }
+
+  .top {
+    position: relative;
+    z-index: 2;
+      display:flex;
+      padding-top: 175px;
+      align-items:center;
+      flex-direction:column;
+      height:600px;
+  
+     
+      }
+
+      #javagone {
+        margin-top: 35px;
+          padding: 35px 20px;
+          background-color: rgba(255,255,255, 0.6);
+          height:100px;
+          width:600px;
+        }
+        
+
+  .contactMeAnchor {
+    height:100px;
+          width:400px;
+    padding: 35px;
+    background-color:rgba(255,255,255, 0.6);
+  }
+
+
+
+.contactMeAnchor:hover {
+  color:white;
+}
+
+.heading h1 {
+   padding-left:10px;
+   color:white;
+}
+
+.fa-linkedin {
+  margin-right:5px;
+  color:blue;
+  font-size: 35px;
+ 
+}
+
+.fa-github {
+  font-size: 35px;
+  margin-right:5px;
+ 
+}
+
+.fab {
+  display:inline-block;
+  
+}
+
+
+.h-one {
+    display:inline-block;
+    margin-left:250px;
+    margin-top:35px;
+    margin-bottom:100px;
+}
+
+
+ul {
+  text-align:center;
+}
+
+
+li {
+  
+  display: inline-block;  
+ margin-right: 2.5px;
+  border-radius: 10px;
+}
+
+li :hover {
+    color:white;
+     transition: all 0.4s ease-in-out;
+}
+
+fab, a {
+  text-decoration: none;
+  display:inline-block;
+ 
+}
+
+
+
+.widemenu {
+    margin-left:25px;
+}
+
+.widemenu li {
+    padding: 5px 15px;
+    font-size:30px;
+}
+
+#smallmenu {
+    display:none;
+}
+
+
+
+.pic2 {
+  height:20rem;
+  padding-top: 1rem;
+  border-radius: 35px;
+  display: inline-block;
+  height:300px;
+  
+}
+
+#cont {
+  display: flex;
+
+}
+
+#btn {
+  height: 36px;
+  margin-top:15px;
+  border-radius: 3px;
+ margin-left: 7px;
+  padding-right: 4px;
+}
+
+#val {
+ height:20px;
+ margin-left: 10px;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ border-radius: 5px;
+ color:blue;
+}
+
+
+ li:hover {
+  cursor: pointer;
+}
+
+
+
+
+.row-two {
+  position: fixed;
+  z-index: 1;
+ background-image: url("images/keys3.jpg");
+ background-repeat: none;
+ background-size: cover;
+ height:100%;
+ width: 100vw;
+ 
+}
+
+.row-three {
+  /*  */
+  position: relative;
+  z-index: 2;
+    display:flex;
+    flex-wrap:wrap; 
+        justify-content:center; 
+    /* align-items:center;   */
+   margin: auto;
+    padding-bottom:55px;
+    padding-top:150px;
+    width:100%;
+    
+    /* background-color:cornflowerblue; */
+    
+}
+
+
+
+ .row-three h1 {
+  text-align:center;
+  color: white;
+  }
+
+  .projectHeading {
+  width:100%;
+}
+
+.row-four {
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    position: relative;
+    z-index: 2;
+   height:100vh;
+   width:100vw;
+   border:2px solid black;
+    background-color:grey;
+   
+}
+
+.nameclass {
+  height:30px;
+  width:200px;
+ }
+ .emailclass {
+     height:30px;
+     width:200px;
+ }
+ .textareaclass {
+      height:80px;
+     width:250px;
+     
+ }
+
+
+ /* make the mouseover so the options to see project appears */
+
+ .parent {
+  margin:20px; 
+  height:350px;
+  width:450px;
+  /* box-shadow: 10px 1px 40px rgba(51,51,51,0.53); */
+ }
+ 
+  
+ 
+ .overProj{
+     
+    /*display:flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-around; */
+    height:280px;
+     width:450px;
+     /*  rgba makes it so text won't fade or have opacity */
+     background-color: rgba(0,0,0, 0.7);
+    position:absolute;
+    z-index:3;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+       
+     } 
+
+
+ .overProj:hover{
+ 
+  opacity: 1;
+ }
+ 
+ 
+ .overProj h2 {
+  padding: 10px;
+  border:1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  color: blue;
+  transition: 0.4s ease-in-out;
+
+}
+
+.overProj h2:hover {
+    color:red;
+    
+    
+}
+
+.overProj h5 {
+    color:white;
+    height:50px;
+    margin:5px auto;
+    padding:15px;
+
+
+}
+
+.btnCont {
+    display:flex;
+    justify-content:space-around;
+    
+    
+}
+
+
+
+.APIProj {
+  height:280px;
+  width:450px;
+  background-image: url('images/weatherAppSnippet.PNG');
+  background-size: cover;
+  background-repeat:no-repeat;
+  box-shadow:2px 2px 8px 2px;
+   }  
+ 
+ 
+.blogProj:hover {
+   
+ }
+ 
+ 
+.postsSite {
+  height:280px;
+  width:450px;
+  background-image: url('images/myPostsPic.PNG' );
+  background-size: cover;
+  background-repeat:no-repeat;
+  box-shadow:2px 2px 8px 2px black;
+    }
+ 
+.rhymeProj:hover {
+   
+ }
+ 
+ 
+.shoppingCartProj {
+  height:280px;
+  width:450px;
+  background-image: url('images/snippetCart.PNG' );
+  background-size: cover;
+  background-repeat:no-repeat;
+  box-shadow:2px 2px 8px 2px black;
+     
+ }
+
+.shoppingCartProj:hover {
+   
+ }
+  
+.parallaxProj {
+  background-image: url('images/parallaxSnippet.PNG' );
+  height:280px;
+  width:450px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  box-shadow:2px 2px 8px 2px black;
+  }
+
+    footer{
+    height:120px;
+    padding-left: 5vw;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    color:white;
+    background:#333;
+        position: relative;
+
+    z-index: 3;
+  }
+
+          
+  
+  
+   @media (min-width: 1250px) {
+.row-three {
+ 
+  max-width: 1100px;
+}
+
+}     
+   
+   
+   
+   /* Screens 1250 and smaller for .row 3 height especially */
+@media screen and (max-width: 1241px) {
+    .row-three {
+      /* background-color: cornflowerblue; */
+      height:1500px;
+      /* max-width: 900px; */
+    }
+
+   
+
+    
+   }
+
+
+                   /*for sceens 950 and smaller*/
+@media screen and (max-width:950px) {
+  #smallmenu {
+      position: fixed;
+      z-index: 3;
+      text-align: center;
+      display: none;
+      
+      top: 100px;  
+      width:100vw;
+      /* border:2px solid black; */
+      border-radius: 10px;
+      padding-top: 15px;
+     
+      background-color: grey	;
+      height:210px;
+}
+
+#smallmenu li, #smallmenu a{
+  width: fit-content;
+  text-align: center;
+  margin:auto;
+  display:block;
+  margin-bottom: 15px;
+  color:white;
+  transition: 1s ease-in-out ;
+      
+
+}
+
+#smallmenu a:hover {
+color: blue;
+}
+.widemenu {
+ display:none;
+}
+
+
+
+
+
+
+
+.fa-linkedin {
+  width:20px;
+  margin-right:20px;
+  color:blue;
+  font-size: 35px;
+}
+
+.fa-github {
+  width:20px;
+  font-size: 35px;
+  margin-right:5px;
+ }
+
+
+ #menubtn {
+  display:block;
+  margin-left:32px;
+  background-color: grey;
+  cursor: pointer; 
+  font-size: 30px;    
+}
+/* this hits the tags in small menu and all others too */
+.widemenu li, .widemenu a{ 
+    display:block;
+    background-color:grey;
+    height:30px;
+    font-size:35px;
+   padding-bottom:20px;
+  
+   }
+  
+
+.APIProj, .postsSite, .shoppingCartProj, .parallaxProj {
+  height:280px;
+  width:450px;
+  box-shadow:1px 1px 10px 1px;
+   }
+
+   
+
+.pic2{
+  padding-top: 1rem;
+  border-radius: 25px;
+  display: inline-block;
+  height:200px;
+      
+    } 
+
+    .fa-linkedin {
+      margin-right:10px;
+      color:blue;
+       font-size: 25px;
+     }
+     
+     .fa-github  {
+       font-size: 25px;
+       margin-right:10px;
+      
+     
+     }
+
+     #javagone {
+        padding-left:30px;
+      }
+
+      .row-three h1 {
+          text-align:center;
+       }
+    
+  }
+
+
+  
+  
+  /*for sceens 450 and smaller*/
+  
+@media (max-width: 450px) {
+ .container{
+    width:100%; 
+ }
+
+ .fa-github {
+  width:20px;
+  font-size: 35px;
+  margin-right:5px;
+  transition: 1s ease-in-out ;
+
+
+ }
+
+ .fa-github:hover {
+   color:blue;
+ }
+
+.fa-linkedin {
+      width:20px;
+      margin-right:20px;
+      color:white;
+      font-size: 35px;
+}
+
+.fa-linkedin:hover {
+  color:blue;
+  transition: 1s ease-in-out ;
+      
+}
+
+.
+
+    #smallmenu {
+     display:none;
+      position: fixed;
+      
+  
+}
+
+.top {
+    height:750px;
+    justify-content:initial;
+   } 
+
+   #javagone {
+       padding:20px 20px;
+       width:75%;
+       height:150px;
+   }
+
+   .contactMeAnchor {
+    height: 30px;
+    width: 175px;
+    padding: 20px 10px;
+  
+}
+
+.row-three {
+    height:1100px;
+    justify-content:center;
+    text-align:center;
+  
+  }
+  .projectHeading {
+      display: block; 
+      width:300px;
+      text-align: center;
+      padding-top:20px;
+}
+
+
+.parent{
+    height:200px;
+    width:320px;
+    transition: 0.7s ease-in-out;
+}
+
+ .parent h5 {
+       color:white;
+       height:fit-content;
+ }
+
+.APIProj, .postsSite, .shoppingCartProj, .parallaxProj {
+    height:200px;
+    width:320px;
+ 
+   }
+
+  
+   
+  
+
+   .overProj {
+    height:200px;
+    width:320px;
+
+   }
+
+   .overProj h2 {
+      padding: 5px;
+      border:1px solid white;
+      font-size: 25px;
+      border-radius: 10px;
+      color: orange;
+    }
+   
+    .nameclass {
+         height:25px;
+         width:200px;
+     }
+
+     .emailclass {
+         height:25px;
+         width:200px;
+     }
+
+     .textareaclass {
+          height:60px;
+         width:250px;
+         
+     }
+  }
+
+
+
+
+ 
+              /*for sceens 950 and bigger*/
+@media screen and (min-width:950px){
+      
+#smallmenu {
+         display: none;
+        
+    }
+    
+    #smallmenu li {
+      display: none;
+    }
+    
+    .widemenu {
+        display: inline-block;
+      }
+
+      #menubtn {
+        display:none; 
+        } 
+      
+     }
