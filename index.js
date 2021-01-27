@@ -252,8 +252,23 @@ setInterval(getDays, 1000);
 
 
 
+// read more 
+const readAll = document.querySelectorAll('.readAll');
+const readLess = document.querySelectorAll('.readLess');
+const readMore = document.querySelectorAll('.readMore');
+const makeInline = document.querySelectorAll('.makeInline');
+
+for (let i = 0; i < readAll.length; i++) {
+    readAll[i].addEventListener('click', () => {
 
 
+        readAll[i].classList.toggle('readAllToggle');
+        makeInline[i].innerHTML += readMore[i].innerHTML;
+
+
+    })
+
+}
 
 
 
